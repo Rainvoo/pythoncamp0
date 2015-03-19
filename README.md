@@ -22,12 +22,25 @@
 
 ### 难点2：git push成功，但 github 未更新
 - 表现
+>everything up-to-date
 - 猜原因1：未设置 SSH ?
     + [SSH 设置教程](http://www.cnblogs.com/yourihua/archive/2012/07/07/2580147.html)
     + Ctrl+H 显示隐藏文件
     + 设置完成后推送仍不成功
-- 猜原因2：宿舍网络被墙
+- 猜原因2：宿舍网络被限制不能翻墙故无法推送
     + 去办公室翻墙测试
+    + 使用的 云梯 VPN 但一开始未成功 经检测后设置问题。。。（待补链接）
+    + 翻墙成功后push仍不成功
+- 以“everything up-to-date”为关键词检索 原来是没有添加 commit 的问题
+- git commit -m "learn" 后显示
+>rainvoo@rainvoo-Aspire-4755:~/pythoncamp0$ git commit -m "learn"
+>位于分支 master
+>您的分支与上游分支 'origin/master' 一致。
+>尚未暂存以备提交的变更：
+>	修改：     README.md
+> 
+>修改尚未加入提交
+
 
 ## 参考
 - [《ubuntu下github的使用》  ](http://blog.csdn.net/tgxblue/article/details/9620455)
