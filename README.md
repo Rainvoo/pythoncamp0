@@ -4,16 +4,68 @@
 
 开智微课，教即是学，学即是教。
 
-## 目标 
+## 学习过程
 
 - 按时完成教学要求和任务
 - 记录每周难点和解决办法
 - 每周小结
+  + 本周习得
+  + 折腾过程复盘
+  + 参考书目和文章链接
 
-## 示例：第0周
+## 示例：
 
+### 第0周·本周习得
 
-### 难点1：git push 成功（自以为），但 github 未更新
+#### 1. git 常用命令
+
+- 创建一个版本库  `git init`
+
+- 每次修改好了后，可以先将修改存入 stage（快照/索引）中  `git add`
+
+- 修改了大量文件则使用下面这个命令批量存入  `git add .`
+
+- 使用 commit 将快照/索引中的内容提交到版本库中  `git commit -m "msg"`
+
+- 也可以将 git add 与 git commit 用一个指令完成  `git commit -a -m "msg"`
+
+- 将本地的git档案与github（远程）上的同步  `git push`
+
+- 将github（远程）的git档案与本地的同步（即更新本地端的repo）  `git pull`
+
+    例如，pull 指令其实包含了 fetch（将变更复制回来）以及 merge（合并）操作
+`git pull git://github.com/tom/test.git`
+ 
+
+- 另外版本控制系統的 branch 功能也很有意思，若同时修改bug，又要加入新功能，可以fork 出一个 branch：一个专门修 bug，一个专门加入新功能，等到稳定后再 merge 合并
+
+  + `git branch bug_fix`  建立 branch，名为 bug_fix
+
+  + `git checkout bug_fix`  切换到 bug_fix
+
+  + `git checkout master`  切换到主要的 repo
+
+  + `git merge bug_fix`  把 bug_fix 这个 branch 和现在的 branch 合并
+ 
+
+- 若有 remote 的 branch，想要查看并 checkout
+  + `git branch -r`  查看远程 branch
+  + `git checkout -b bug_fix_local bug_fix_remote`  把本地端切换为远程的 `bug_fix_remote branch` 并命名为 `bug_fix_local`
+ 
+- 查看repo状态的工具
+  + `git log`  可以查看每次 commit 的改变
+  + `git diff`  可以查看最近一次改变的內容，加上参数可以看其它的改变并互相比较
+  + `git show`  可以看某次的变更
+ 
+
+- 若想知道目前工作树的状态，可以輸入
+`git status`
+
+#### 2. git 工作思维理解
+
+### 第0周·折腾复盘
+
+#### 复盘1：git push 成功（自以为），但 github 未更新
 - 表现
 
 >everything up-to-date
@@ -27,7 +79,7 @@
   + 去办公室翻墙测试
   + 使用的 云梯 VPN 但一开始未成功，经检测后为设置问题。。。（待补链接）
   + 翻墙成功后 push 仍不成功
-- 以“everything up-to-date”为关键词检索，得到他人经验：
+- 以“everything up-to-date”为关键词检索，得到他人经验[《git push 时 “Everything up to date” 的解决办法》](http://hamguy.net/archives/812)：
   + 没有 add 文件
   + 没有添加 commit 
   + git commit -m "learn" 后显示:
@@ -44,14 +96,28 @@
 > 
 > 修改尚未加入提交
 
-### 难点2：github 与 gitbook 双推设置
+#### 复盘2：github 与 gitbook 双推设置
 - 终端进入本地文件后不知道怎么在 vim  里添加命令
 > 1. 首先，将之前建立的Github的库克隆到本地（具体方法在第一段）。
 > 2. 进入库文件夹。 cd 本地库的名字 （因为是从github上拽下来的, 所以就是github上库的名字哦。）
 > 3. 输入vi ./.git/config
 > 4. 进入vi的编辑界面后，按i，进入编辑模式，在[remote "origin"]下一行，输入：url = 刚才复制的网址.
 
-问题可能出在第 3 步。
+问题出在第 3 步，即 vim 编辑器使用不熟练。
+
+。。。待补充解决步骤
+
+双推成功
+
+- 但我在 Gitbook 建立 pythoncamp0 时，关联了GitHub，所以无法判断是一下哪两种情况：
+  + 本地 repository —> GitHub —> Gitbook
+  + 本地 repository —> GitHub within 本地 repository —> Gitbook
+
+- 。。。待补充验证上述两种可能。
 
 ## 参考
-- [《ubuntu下github的使用》  ](http://blog.csdn.net/tgxblue/article/details/9620455)
+### GitHub push
+- [《git push 时 “Everything up to date” 的解决办法》](http://hamguy.net/archives/812)
+- [《ubuntu 安装配置 github》  ](http://blog.csdn.net/tgxblue/article/details/9620455)
+- [《Ubuntu 使用 Git 使用》](http://www.cnblogs.com/yourihua/archive/2012/07/07/2580147.html)
+- [《git 之 github 使用（一）：push 代码到 github》](http://segmentfault.com/blog/zhongbaitu/1190000000392120)
