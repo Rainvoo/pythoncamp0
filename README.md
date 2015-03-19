@@ -22,10 +22,10 @@
 - 按时完成教学要求和任务
   + [教学要求](http://mooc.study.163.com/spoc/learn/Openmind-1000043000#/learn/content?type=detail&id=1000124018)
 用 GitHub 管理每周目标完成情况：
-    × 列出任务
-    × 在任务前使用 `[√]`（已完成） 或者 `[---]`（待进行） 表示任务进度
+     * 列出任务
+     * 在任务前使用 `[√]`（已完成） 或者 `[--]`（待进行） 表示任务进度
   + 任务作业
-    × 在已完成的任务后给出 GitHub 文档链接
+     * 在已完成的任务后给出 GitHub 文档链接
 - 记录每周难点和解决办法
 - 每周小结
   + 本周习得
@@ -125,19 +125,10 @@
 - 以“everything up-to-date”为关键词检索，得到他人经验[《git push 时 “Everything up to date” 的解决办法》](http://hamguy.net/archives/812)：
   + 没有 add 文件
   + 没有添加 commit 
-  + git commit -m "learn" 后显示:
-
-> rainvoo@rainvoo-Aspire-4755:~/pythoncamp0$ git commit -m "learn"
-> 
-> 位于分支 master
-> 
-> 您的分支与上游分支 'origin/master' 一致。
-> 
-> 尚未暂存以备提交的变更：
-> 
->	修改：     README.md
-> 
-> 修改尚未加入提交
+    * git commit -m "完善结构" 后显示:
+>rainvoo@rainvoo-Aspire-4755:~/pythoncamp0$ git commit -m "完善结构"
+>[master 1d96cc6] 完善结构
+> 1 file changed, 46 insertions(+), 2 deletions(-)
 
 #### 复盘2：github 与 gitbook 双推设置
 - 终端进入本地文件后不知道怎么在 vim  里添加命令
