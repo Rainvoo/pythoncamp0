@@ -1,56 +1,8 @@
-# README
+# 什么是 GitHub
 
-## 缘起
+# GitHub 注册安装
 
-开智微课，python 大法，学即是教，教即是学。
-
-## 课程介绍
-
-- [网易云课堂 SPOC「开智微课：Python编程入门 」](http://mooc.study.163.com/spoc/learn/Openmind-1000043000#/learn/announce)
-
-## 学习前预期目标
-
-- 理解并培养编程思维
-  + 知道什么样的问题可以通过编程解决
-  + 知道怎样解决上述问题
-- 抓取网上的数据，辅助工作中的数据处理
-- 遇到大量数据时，能自己编程运行分析
-- 养成学习编程的习惯和方法，为以后学习其他语言铺平道路 
-
-## 自我学习设定
-
-- 按时完成教学要求和任务
-  + 48 小时
-    * 每个任务的完成和记录都要在任务发布的 48 小时内完成
-  + [教学要求](http://mooc.study.163.com/spoc/learn/Openmind-1000043000#/learn/content?type=detail&id=1000124018)
-用 GitHub 管理每周目标完成情况：
-     * 列出任务
-     * 在任务前使用 `[√]`（已完成） 或者 `[--]`（待进行） 表示任务进度
-  + 任务作业
-     * 在已完成的任务后给出 GitHub 文档链接
-- 记录每周难点和解决办法
-- 每周小结
-  + 本周习得
-  + 折腾过程复盘
-  + 参考书目和文章链接
-
-## 示例：
-
-### 第0周·教学目标
-
-- [√] 请注册网易云课堂，并登录，并进入课程[「开智微课：Python编程入门」](http://mooc.study.163.com/spoc/course/Openmind-1000043000#/info)
-- [√] 注册Github，并加入 openmind.club 的 python 学员小组 pycamp0。
-- [√] 用 GitHub 帐号登录 GitBook。查看自己 GitBook 用户名，并设置密码。
-- [√] 将 Github 中的书目录，pythoncamp0 push到 GitBook 上面。
-- [--] 在命令行界面，进入python，输入代码：print(Hello, World)，然后按下回车。
-- [--] 使用 Markdown 语法写一篇关于开光大会的心得，并放入 GitHub 中。
-- [--] 完成一篇教程，教六个月前的自己从零开始使用 markdown。
-- [--] 说服6个月前的自个儿来使用 Mailling-List。
-- [--] 在GitBook中，写出GitHub使用教程。
-
-### 第0周·本周习得
-
-#### 1. git 常用命令
+# Git 常用命令
 
 - 创建一个版本库  `git init`
 
@@ -94,23 +46,10 @@
 - 若想知道目前工作树的状态，可以輸入
 `git status`
 
-#### 2. git 工作思维理解
 
-<>
+# Git push
 
-#### 3. Markdown 语言
-由于本来就了解 Markdown，所以在重新熟悉的基础上做以下两个记录：
-- Markdown 入门
-（。。。待增补目录）
-- 难点
-  + 标记符号本身要写入，如何解决矛盾
-  + 转跳问题
-  + 论文引用
-  + 。。。
-
-### 第0周·折腾复盘
-
-#### 复盘1：git push 成功（自以为），但 github 未更新
+git push 成功（自以为），但 github 未更新
 - 表现
 
 >everything up-to-date
@@ -132,7 +71,8 @@
 >[master 1d96cc6] 完善结构
 > 1 file changed, 46 insertions(+), 2 deletions(-)
 
-#### 复盘2：github 与 gitbook 双推设置
+# GitHub 与 Gitbook 双推设置
+
 - 终端进入本地文件后不知道怎么在 vim  里添加命令
 > 1. 首先，将之前建立的Github的库克隆到本地（具体方法在第一段）。
 > 2. 进入库文件夹。 cd 本地库的名字 （因为是从github上拽下来的, 所以就是github上库的名字哦。）
@@ -151,8 +91,10 @@
 
 - 。。。待补充验证上述两种可能。
 
-## 参考
-### GitHub push
+# Git 工作思维理解
+
+# 参考
+## GitHub push
 - [Pro Git | 2.2 Git 基础 - 记录每次更新到仓库](http://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E8%AE%B0%E5%BD%95%E6%AF%8F%E6%AC%A1%E6%9B%B4%E6%96%B0%E5%88%B0%E4%BB%93%E5%BA%93)
 - [《git push 时 “Everything up to date” 的解决办法》](http://hamguy.net/archives/812)
 - [《ubuntu 安装配置 github》  ](http://blog.csdn.net/tgxblue/article/details/9620455)
