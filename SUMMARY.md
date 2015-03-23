@@ -1,6 +1,6 @@
 # SUMMARY
-
-* [0. 缘起：开光大会](/source/begin.md)
+* [前言](/readme.md)
+* [0. 开光大会](/source/begin.md)
 * [1. Week 1: 学习环境搭建（一） ](./source/part1/week1introduction)
   * [1.1 操作系统 Ubuntu](./source/part1/ubuntu.md) 
   * [1.2 GitHub](./source/part1/github.md)
