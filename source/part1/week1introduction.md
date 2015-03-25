@@ -13,8 +13,8 @@
 - [x] 注册Github，并加入 openmind.club 的 python 学员小组 pycamp0。
 - [x] 用 GitHub 帐号登录 GitBook。查看自己 GitBook 用户名，并设置密码。
 - [x] 将 Github 中的书目录，pythoncamp0 push到 GitBook 上面。
-- [--] 在命令行界面，进入python，输入代码：print(Hello, World)，然后按下回车。
-- [--] 使用 Markdown 语法写一篇关于开光大会的心得，并放入 GitHub 中。
-- [--] 完成一篇教程，教六个月前的自己从零开始使用 markdown。
-- [--] 说服6个月前的自个儿来使用 Mailling-List。
-- [--] 在GitBook中，写出GitHub使用教程。
+- [·] 在命令行界面，进入python，输入代码：print(Hello, World)，然后按下回车。
+- [·] 使用 Markdown 语法写一篇关于开光大会的心得，并放入 GitHub 中。
+- [x] 完成一篇教程，教六个月前的自己从零开始使用 markdown。
+- [x] 说服6个月前的自个儿来使用 Mailling-List。
+- [x] 在GitBook中，写出GitHub使用教程。
