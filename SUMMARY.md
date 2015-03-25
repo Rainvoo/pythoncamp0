@@ -1,7 +1,7 @@
 # SUMMARY
 * [前言](/readme.md)
 * [开光大会](/source/begin.md)
-* [Week 1: 学习环境搭建（一） ](./source/part1/week1introduction)
+* [Week 1: 学习环境搭建（一） ](./source/part1/week1introduction.md)
   * [1 操作系统 Ubuntu](./source/part1/ubuntu.md) 
   * [2 GitHub](./source/part1/github.md)
   * [3 Gitbook](./source/part1/gitbook.md)
@@ -9,7 +9,7 @@
   * [5 Mailist](./source/part1/mailist.md)
   * [6 Hello, world!](./source/part1/helloworld.md)
   * [7 小结与导师答疑](./source/part1/q&a.md)
-* [Week 2: 学习环境搭建（二） ](./source/part2/week2introduction)
+* [Week 2: 学习环境搭建（二） ](./source/part2/week2introduction.md)
   * [1 Disqus](./source/part2/disqus.md)
   * [2 Coursera](./source/part2/coursera.md)
 * [结尾](./source/end.md)
