@@ -6,10 +6,10 @@
 
 :D
 
-
 ## 课程介绍
 
-- [网易云课堂 SPOC「开智微课：Python编程入门 」](http://mooc.study.163.com/spoc/learn/Openmind-1000043000#/learn/announce)
+- [网易云课堂 SPOC「开智微课：Python 编程入门 」](http://mooc.study.163.com/spoc/learn/Openmind-1000043000#/learn/announce)
+- [开智微课 python 书单](http://www.douban.com/doulist/37959967/)
 
 ## 口号
 
