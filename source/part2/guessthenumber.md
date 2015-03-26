@@ -14,6 +14,8 @@
 
 以下是我的代码
 ---
+
+``` python
 # This is "Guess the number"
 
 import random
@@ -89,3 +91,4 @@ frame.set_draw_handler(draw)
 # start frame
 frame.start()
 print("开始游戏！\n请选择猜数字的范围！")
+```
