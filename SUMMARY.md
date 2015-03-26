@@ -12,4 +12,6 @@
 * [Week 2: 学习环境搭建（二） ](./source/part2/week2introduction.md)
   * [1 Disqus](./source/part2/disqus.md)
   * [2 Coursera](./source/part2/coursera.md)
+  * [3 Python 快速学习-1](./source/part2/fastlearning.md)
+  * [4 Guess the number!](./source/part2/guessthenumber.md)
 * [结尾](./source/end.md)
