@@ -1,8 +1,8 @@
 # Guess the number
 
-![](/images/part2_guessthenumber1.png)
-
 ## beta1 2015/03/26/13:46
+
+![](/images/part2_guessthenumber1.png)
 
 由于时间紧张，我采取的策略是先找出已完成学员的代码，看懂他们的写法，在综合几个代码的优点，写出我的代码。
 
@@ -12,7 +12,9 @@
 - 增加对输入非整型的判断
 - 增加自主选择猜数字范围的选项
 
-以下是我的代码
+### [codeskulptor 链接](http://www.codeskulptor.org/#user39_ZIlZxqolkU_0.py)
+
+### 以下是我 beta 1 的代码
 ---
 
 ``` python
