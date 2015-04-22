@@ -14,6 +14,7 @@
   * [2 Coursera](./source/part2/coursera.md)
   * [3 Python 快速学习-1](./source/part2/fastlearning.md)
   * [4 Guess the number!](./source/part2/guessthenumber.md)
+  * [5 本地模拟运行 codeskulptor 平台（待续）](./source/part2/codeskulptor.md)
 * [Week 3: 可回放的点彩画板](./source/part3/week3introduction.md)
   * [学习与思考](./source/part3/learning.md)
 * [结尾](./source/end.md)
