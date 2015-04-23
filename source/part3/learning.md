@@ -25,7 +25,7 @@ import simplegui
 import math
 
 # intialize globals
-WIDTH = 450
+WIDTH = 450  #画板宽度
 HEIGHT = 300
 ball_pos = [WIDTH / 2, HEIGHT / 2]
 BALL_RADIUS = 15
