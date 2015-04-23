@@ -6,7 +6,7 @@
 
 可视元素|图案函数|python 写法
 -:-|-:-|-:-
-画板|坐标|mouse button click:frame.set_mouseclick_handler()
+画板|坐标|frame.set_mouseclick_handler()
 圆形按钮、方形按钮、三角形按钮|形状
 色板按钮|颜色
 回放按钮|时序
