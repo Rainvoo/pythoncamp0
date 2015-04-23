@@ -25,18 +25,17 @@ import simplegui
 import math
 
 # intialize globals
-WIDTH = 450  #画板宽度
-HEIGHT = 300
-ball_pos = [WIDTH / 2, HEIGHT / 2]
-BALL_RADIUS = 15
-ball_color = "Red"
+WIDTH = 450   #定义变量WIDTH，初始值为450
+HEIGHT = 300  #定义变量HEIGHT，初始值为450
+ball_pos = [WIDTH / 2, HEIGHT / 2]  #定义含有两个数字的列表变量ball_pos,且数字分布为二分之一WIDTH和二分之一HEIGHT（调用为坐标即为画布中心）
+BALL_RADIUS = 15  #定义变量BALL_RADIUS，初始值为15（后面调用为圆点的半径）
+ball_color = "Red"  #定义变量ball_color，初始值为"Red"（后面调用为圆点的颜色）
 
 # helper function
-def distance(p, q):
     return math.sqrt( (p[0] - q[0]) ** 2 + (p[1] - q[1]) ** 2)
 
 # define event handler for mouse click, draw
-def click(pos):
+def click(pos):  #定义事件click
     global ball_pos, ball_color
     if distance(pos, ball_pos) < BALL_RADIUS:
         ball_color = "Green"
@@ -48,8 +47,8 @@ def draw(canvas):
     canvas.draw_circle(ball_pos, BALL_RADIUS, 1, "Black", ball_color)
 
 # create frame
-frame = simplegui.create_frame("Mouse selection", WIDTH, HEIGHT)
-frame.set_canvas_background("White")
+frame = simplegui.create_frame("Mouse selection", WIDTH, HEIGHT)  #以 WIDTH, HEIGHT 初始值为宽度和高度创建画框
+frame.set_canvas_background("White")  #设置画布颜色为白色
 
 # register event handler
 frame.set_mouseclick_handler(click)
