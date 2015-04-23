@@ -47,6 +47,10 @@ omooc <omooc@googlegroups.com>
 - 在「收件人」中填写 `omooc@googlegroups.com`，发邮件，所有订阅者就都会收到你的邮件。
 - 直接回复别人通过`omooc@googlegroups.com`发出的邮件，所有人也都会收到你的回复邮件。
 
+###邮件列表礼仪
+- [电邮靠谱指南](http://blog.zhgdg.org/2014-02/email-kaopulity-guider/)
+- [邮件列表的规范和礼节：创造良性发展的交流空间](http://s5.zoomquiet.io/050730-usMaillist/index.html)
+
 ## 参考
 [1] [Wiki-Mailist](http://en.wikipedia.org/wiki/Electronic_mailing_list)    
 [2] [Mailist Wiki-啄木鸟论坛](http://wiki.woodpecker.org.cn/moin/MailingList)
