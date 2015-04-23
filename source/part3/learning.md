@@ -5,7 +5,7 @@
 根据本次程序的预期目标，可将其拆分为五组一一对应的关系：
 
 可视元素|图案函数|python 写法
--:-|-:-|-:-
+----|----|----
 画板|坐标|frame.set_mouseclick_handler()
 圆形按钮、方形按钮、三角形按钮|形状
 色板按钮|颜色
@@ -25,11 +25,11 @@ import simplegui
 import math
 
 # intialize globals
-WIDTH = 450   #定义变量WIDTH，初始值为450
-HEIGHT = 300  #定义变量HEIGHT，初始值为450
-ball_pos = [WIDTH / 2, HEIGHT / 2]  #定义含有两个数字的列表变量ball_pos,且数字分布为二分之一WIDTH和二分之一HEIGHT（调用为坐标即为画布中心）
-BALL_RADIUS = 15  #定义变量BALL_RADIUS，初始值为15（后面调用为圆点的半径）
-ball_color = "Red"  #定义变量ball_color，初始值为"Red"（后面调用为圆点的颜色）
+WIDTH = 450   #定义变量 WIDTH，初始值为 450
+HEIGHT = 300  #定义变量 HEIGHT，初始值为 450
+ball_pos = [WIDTH / 2, HEIGHT / 2]  #定义含有两个数字的列表变量 ball_pos，且数字分布为二分之一 WIDTH 和二分之一 HEIGHT（调用为坐标，即为画布中心）
+BALL_RADIUS = 15  #定义变量 BALL_RADIUS，初始值为15（后面调用为圆点的半径）
+ball_color = "Red"  #定义变量 ball_color，初始值为 "Red"（后面调用为圆点的颜色）
 
 # helper function
     return math.sqrt( (p[0] - q[0]) ** 2 + (p[1] - q[1]) ** 2)
