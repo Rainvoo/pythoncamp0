@@ -1,7 +1,7 @@
 # SUMMARY
 * [前言](/readme.md)
 * [开光大会](/source/begin.md)
-* [Week 1: 学习环境搭建（一）](./source/part1/week1introduction.md)
+* [Week 1：学习环境搭建（一）](./source/part1/week1introduction.md)
   * [1 操作系统 Ubuntu](./source/part1/ubuntu.md) 
   * [2 GitHub](./source/part1/github.md)
   * [3 Gitbook](./source/part1/gitbook.md)
@@ -9,12 +9,16 @@
   * [5 Mailist](./source/part1/mailist.md)
   * [6 Hello, world!](./source/part1/helloworld.md)
   * [7 小结与导师答疑](./source/part1/q&a.md)
-* [Week 2: 学习环境搭建（二）](./source/part2/week2introduction.md)
+* [Week 2：学习环境搭建（二）](./source/part2/week2introduction.md)
   * [1 Disqus](./source/part2/disqus.md)
   * [2 Coursera](./source/part2/coursera.md)
   * [3 Python 快速学习-1](./source/part2/fastlearning.md)
   * [4 Guess the number!](./source/part2/guessthenumber.md)
   * [5 本地模拟运行 codeskulptor 平台（待续）](./source/part2/codeskulptor.md)
-* [Week 3: 可回放的点彩画板](./source/part3/week3introduction.md)
+* [Week 3：可回放的点彩画板](./source/part3/week3introduction.md)
   * [学习与思考](./source/part3/learning.md)
+* Week 4：AI 猜数字
+* Week 5：水彩画板
+* Week 6：答疑和项目计划
+  * [1 大妈上海站分享：自我驱动和软件工程](./source/part6/how2doproject.md)  
 * [结尾](./source/end.md)
