@@ -32,6 +32,7 @@ BALL_RADIUS = 15  #定义变量 BALL_RADIUS，初始值为15（后面调用为�
 ball_color = "Red"  #定义变量 ball_color，初始值为 "Red"（后面调用为圆点的颜色）
 
 # helper function
+def distance(p, q):  #定义事件 distance
     return math.sqrt( (p[0] - q[0]) ** 2 + (p[1] - q[1]) ** 2)
 
 # define event handler for mouse click, draw
