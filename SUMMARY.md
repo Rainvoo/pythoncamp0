@@ -21,4 +21,5 @@
 * Week 5：水彩画板
 * Week 6：答疑和项目计划
   * [1 大妈上海站分享：自我驱动和软件工程](./source/part6/how2doproject.md)  
+  * [2 Let's do it together!](./source/part6/projectplan.md)
 * [结尾](./source/end.md)
